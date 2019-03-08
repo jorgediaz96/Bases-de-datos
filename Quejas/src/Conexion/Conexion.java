@@ -25,10 +25,9 @@ public class Conexion {
             try {
                     Class.forName(driver);
                     conn = DriverManager.getConnection(connectString, user, password);
-              
                     return conn;
                     }
-                    //Si se produce una Excepcion y no nos podemos conectar, muestra el sgte. mensaje.
+                    //Si se produce una Excepcion y no nos podemos conn, muestra el sgte. mensaje.
             catch(SQLException e) {
                     System.out.println("Se ha producido un error en la conexion a la base de datos Ejemplo! ");
                     return null;

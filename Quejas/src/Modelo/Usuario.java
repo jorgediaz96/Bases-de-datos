@@ -15,6 +15,24 @@ public class Usuario {
     int telefono;
     String direccion;
     int cedula;
+    int contraseña;
+    String nombre_usuario;
+
+    public String getNombre_usuario() {
+        return nombre_usuario;
+    }
+
+    public void setNombre_usuario(String nombre_usuario) {
+        this.nombre_usuario = nombre_usuario;
+    }
+
+    public int getContraseña() {
+        return contraseña;
+    }
+
+    public void setContraseña(int contraseña) {
+        this.contraseña = contraseña;
+    }
 
     public int getId_usuario() {
         return id_usuario;
